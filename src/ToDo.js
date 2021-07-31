@@ -32,6 +32,7 @@ class ToDo extends Component {
     render() {
         return (
             <div>
+                <h1>TODO</h1>
                 <input onBlur={(e) => this.updateInputValue(e)} />
                 <ul>{this.state.todosArray.map((x, index) =>
                     <li key = {index} >{x}
