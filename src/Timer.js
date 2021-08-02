@@ -17,9 +17,6 @@ class Timer extends React.Component {
         );
     }
 
-    // componentDidUpdate() {
-    //     console.log('after update...');
-    // }
 
     componentWillUnmount() {
         clearInterval(this.timerID);
